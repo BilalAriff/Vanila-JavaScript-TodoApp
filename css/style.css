@@ -1,0 +1,127 @@
+:root {
+    --main-bg-color: #F6F2F8;
+    --font-color: #F6F2F8;
+    --footer-color: #354E4E;
+  }
+
+  /* JUMBOTRON STYLING */
+
+  .jumbotron {
+    background-image: url('../assets/bg.jpg');
+    background-position: center;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+
+  .jumbotron h1, h2 {
+    color: var(--font-color);
+    font-weight: bolder;
+  }
+
+  .jumbotron p {
+    color: var(--font-color);
+  }
+
+  /* TASK INPUT */
+  .task-input {
+    background-color: var(--main-bg-color);
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* LIST STYLING */
+
+  .list {
+    background-color: var(--main-bg-color);
+  }
+
+  /* FOOTER STYLING */
+
+  footer {
+    background-color: var(--footer-color);
+    background-position: center;
+    min-height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  footer p {
+    color: var( --font-color);
+    font-weight: bolder;
+  }
+  
+  /* List Styling */
+
+  .task-buttons {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+  }
+
+  .task-buttons button {
+    margin-top: 15px;
+    margin-left: 5px;
+  }
+
+  .completed h5  {
+    text-decoration: line-through;
+  }
+
+  .completed p  {
+    text-decoration: line-through;
+  }
+
+  .list {
+
+  }
+
+  .item {
+    background-color: var( --main-bg-color);
+  }
+  .item:hover {
+    background-color: antiquewhite;
+  }
+
+  .item-left {
+
+  }
+
+  .item-right {
+
+  }
+
+  .btn-circle.btn-sm { 
+    width: 30px; 
+    height: 30px; 
+    padding: 6px 0px; 
+    border-radius: 15px; 
+    font-size: 8px; 
+    text-align: center; 
+} 
+.btn-circle.btn-md { 
+    width: 50px; 
+    height: 50px; 
+    padding: 7px 10px; 
+    border-radius: 25px; 
+    font-size: 10px; 
+    text-align: center; 
+} 
+.btn-circle.btn-xl { 
+    width: 70px; 
+    height: 70px; 
+    padding: 10px 16px; 
+    border-radius: 35px; 
+    font-size: 12px; 
+    text-align: center; 
+}
+
